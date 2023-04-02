@@ -1,7 +1,7 @@
 import { Box, Divider, Grid, Stack, Typography } from "@mui/material";
 import React from "react";
 import CheckIcon from "@mui/icons-material/Check";
-import men from "./Images/men.jpg";
+import men from "./Images/men (2).jpg";
 function Container4() {
   return (
     <div>

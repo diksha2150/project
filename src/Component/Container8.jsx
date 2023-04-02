@@ -13,7 +13,7 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
-import captcha from "./Images/png-transparent-recaptcha-hd-logo-thumbnail 1.png";
+import captcha from "./Images/png-transparent-recaptcha-hd-logo-thumbnail 1 (1).png";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";

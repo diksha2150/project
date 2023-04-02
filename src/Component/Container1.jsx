@@ -8,11 +8,26 @@ import {
 } from "@mui/material";
 import React from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import Image from "./Images/rect.png";
+const styles = {
+  paperContainer: {
+    backgroundImage: `url(${Image})`,
+  },
+};
 function Container1() {
   return (
     <div>
       <Box
-        sx={{ bgcolor: "black", textAlign: "center", color: "white", py: 12 }}
+        style={styles.paperContainer}
+        sx={{
+          bgcolor: "black",
+          textAlign: "center",
+          color: "white",
+          py: 12,
+          background: "linear-gradient(90deg, #101010 19.44%, #000000 96.72%)",
+          backgroundSize: "cover",
+          mt: 6,
+        }}
       >
         <Typography
           variant="h4"
